@@ -16,6 +16,11 @@ header nav {
   justify-content: space-between;
   padding: 3dvh;
 }
+@media screen and (max-width: 600px) {
+  header nav nav {
+    display: flex;
+  }
+}
 header nav .nav-list {
   display: flex;
   gap: 4dvh;
@@ -47,15 +52,32 @@ main .container {
      object-fit: cover;
   flex-direction: row;
 }
+@media screen and (max-width: 600px) {
+  main .container .container {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+}
 main .container .text-content {
   flex: 1;
   margin-top: 10dvh;
   margin-left: 10dvh;
   font-family: "Karla", serif;
 }
+@media screen and (max-width: 600px) {
+  main .container .text-content .text-content {
+    margin-top: 1dvh !important;
+    margin-left: 1dvh !important;
+  }
+}
 main .container .text-content .main-title {
   color: hsl(0, 0%, 98%);
   font-size: 4rem;
+}
+@media screen and (max-width: 600px) {
+  main .container .text-content .main-title .main-title {
+    font-size: 2rem !important;
+  }
 }
 main .container .text-content .container-paragraph {
   margin-top: 3dvh;
@@ -82,6 +104,13 @@ main .container .img-container .fundo {
   left: -60px;
   top: 140px;
   opacity: 0.93;
+  max-width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 600px) {
+  main .container .img-container .fundo .fundo {
+    position: static !important;
+  }
 }
 main .image {
   position: relative;
@@ -190,4 +219,49 @@ footer .footer-container .columns p {
   color: hsl(270, 9%, 17%);
   margin-bottom: 1dvh;
   cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .grid-container {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    justify-content: center !important;
+    align-items: center !important;
+    text-align: center !important;
+    margin: 1dvh !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .find-out {
+    display: flex !important;
+    flex-direction: column !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    height: 28dvh !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .intro-right {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .btn-work {
+    margin: auto !important;
+    margin-bottom: 2dvh !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-icons {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+}
+@media screen and (max-width: 600px) {
+  .footer-container {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
