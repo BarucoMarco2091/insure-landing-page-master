@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+header {
+  background-color: white;
+}
+header nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3dvh;
+}
+header nav .nav-list {
+  display: flex;
+  gap: 4dvh;
+  text-decoration: none;
+  list-style-type: none;
+}
+header nav .nav-item {
+  font-family: "DM Serif Display", serif;
+  color: hsl(256, 26%, 20%);
+  cursor: pointer;
+}
+header nav .btn {
+  font-family: "DM Serif Display", serif;
+  background-color: hsl(270, 9%, 17%);
+  color: white;
+  width: 20dvh;
+  height: 6dvh;
+  cursor: pointer;
+  border: none;
+}
+
+main .container {
+  background-image: url("../assets/bg-pattern-intro-right-desktop.svg");
+  background-repeat: no-repeat;
+  background-position: 910px 0px;
+  background-color: hsl(256, 26%, 20%);
+  display: flex;
+  -o-object-fit: cover;
+     object-fit: cover;
+  flex-direction: row;
+}
+main .container .text-content {
+  flex: 1;
+  margin-top: 10dvh;
+  margin-left: 10dvh;
+  font-family: "Karla", serif;
+}
+main .container .text-content .main-title {
+  color: hsl(0, 0%, 98%);
+  font-size: 4rem;
+}
+main .container .text-content .container-paragraph {
+  margin-top: 3dvh;
+  color: hsl(0, 0%, 98%);
+}
+main .container .text-content .btn-plans {
+  margin-top: 5dvh;
+  width: 20dvh;
+  height: 6dvh;
+  cursor: pointer;
+  border: none;
+  font-family: "Karla", serif;
+  font-size: 1rem;
+  color: hsl(256, 26%, 20%);
+}
+main .container .img-container {
+  flex: 1;
+  left: 200px;
+}
+main .container .img-container .fundo {
+  -o-object-fit: cover;
+     object-fit: cover;
+  position: relative;
+  left: -60px;
+  top: 140px;
+  opacity: 0.93;
+}
+main .image {
+  position: relative;
+  top: -170px;
+}
+main .image .intro-left {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .secondary-title {
+  margin-top: -15dvh;
+  margin-left: 10dvh;
+  margin-bottom: 15dvh;
+  font-family: "Karla", serif;
+  font-size: 3.5rem;
+}
+main .grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-left: 5dvh;
+}
+main .grid-container .card {
+  gap: 1dvh;
+}
+main .grid-container .card .card-img {
+  max-width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main .grid-container .card .card-title {
+  margin-top: 4dvh;
+  margin-bottom: 2dvh;
+  font-family: "Karla", sans-serif;
+}
+main .grid-container .card .card-description {
+  font-family: "Karla", sans-serif;
+  color: hsl(216, 30%, 68%);
+  margin-bottom: 10dvh;
+}
+main .find-out {
+  display: flex;
+  width: 120dvh;
+  height: 20dvh;
+  background-color: hsl(256, 26%, 20%);
+  margin: auto;
+}
+main .find-out .find-out-title {
+  flex: 1;
+}
+main .find-out .btn-work {
+  width: 20dvh;
+  height: 5dvh;
+  margin: auto;
+  margin-right: 5dvh;
+  border: none;
+  cursor: pointer;
+}
+
+footer .footer-container {
+  display: flex;
+  gap: 2dvh;
+}/*# sourceMappingURL=styles.css.map */
