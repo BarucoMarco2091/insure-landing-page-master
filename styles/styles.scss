@@ -154,9 +154,26 @@ main {
         height: 20dvh;
         background-color: $darkViolet;
         margin: auto;
+        margin-bottom: 20dvh;
 
         .find-out-title {
             flex: 1;
+            color:white;
+            font-family: 'Karla', serif;
+            font-size: 2rem;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            margin-top: 3dvh;
+        }
+
+        .intro-right {
+            position: relative;
+            left: 160px;
+            height: 200px;
+            width: 250px;
+            object-fit: cover;
+            opacity: 0.3;
         }
 
         .btn-work {
@@ -166,14 +183,44 @@ main {
             margin-right: 5dvh;
             border: none;
             cursor: pointer;
+            font-family: 'Karla', serif;
+            font-size: 1rem;
         }
     }
 }
 
 footer {
+    background-color: $veryLightGray;
+
+    .footer-icons {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 10dvh;
+        margin-right: 10dvh;
+        border-bottom: 1px solid $darkGrayishViolet;
+        padding-bottom: 5dvh;
+        cursor: pointer;
+    }
     
     .footer-container {
         display: flex;
+        justify-content: space-around;
+        margin-top: 5dvh;
         gap: 2dvh;
+
+        .columns {
+            h4 {
+                color: $grayishBlue;
+                font-family: 'Karla', serif;
+                margin-bottom: 3dvh;
+            }
+
+            p {
+                font-family: 'Karla', serif;
+                color: $veryDarkViolet; 
+                margin-bottom: 1dvh;
+                cursor: pointer;
+            }
+        }
     }
 }

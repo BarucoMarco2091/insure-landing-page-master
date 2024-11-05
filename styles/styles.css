@@ -130,9 +130,26 @@ main .find-out {
   height: 20dvh;
   background-color: hsl(256, 26%, 20%);
   margin: auto;
+  margin-bottom: 20dvh;
 }
 main .find-out .find-out-title {
   flex: 1;
+  color: white;
+  font-family: "Karla", serif;
+  font-size: 2rem;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3dvh;
+}
+main .find-out .intro-right {
+  position: relative;
+  left: 160px;
+  height: 200px;
+  width: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  opacity: 0.3;
 }
 main .find-out .btn-work {
   width: 20dvh;
@@ -141,9 +158,36 @@ main .find-out .btn-work {
   margin-right: 5dvh;
   border: none;
   cursor: pointer;
+  font-family: "Karla", serif;
+  font-size: 1rem;
 }
 
+footer {
+  background-color: hsl(0, 0%, 98%);
+}
+footer .footer-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10dvh;
+  margin-right: 10dvh;
+  border-bottom: 1px solid hsl(273, 4%, 51%);
+  padding-bottom: 5dvh;
+  cursor: pointer;
+}
 footer .footer-container {
   display: flex;
+  justify-content: space-around;
+  margin-top: 5dvh;
   gap: 2dvh;
+}
+footer .footer-container .columns h4 {
+  color: hsl(216, 30%, 68%);
+  font-family: "Karla", serif;
+  margin-bottom: 3dvh;
+}
+footer .footer-container .columns p {
+  font-family: "Karla", serif;
+  color: hsl(270, 9%, 17%);
+  margin-bottom: 1dvh;
+  cursor: pointer;
 }/*# sourceMappingURL=styles.css.map */
